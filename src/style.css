@@ -1,0 +1,47 @@
+:root {
+    --text-size: 60px;
+    --placement: center;
+    --margins: 0px;
+}
+
+h1 {
+    font-size: var(--text-size);
+    text-align: var(--placement);
+    margin: var(--margins);
+
+}
+
+h2 {
+    text-align: var(--placement);
+    margin: var(--margins);
+
+}
+
+.links {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link2 {
+    background-color: blue;
+    padding: 20px;
+    margin: 5px;
+
+}
+
+
+
+a:visited {
+    color: green;
+
+}
+
+a:hover {
+    color: yellow;
+
+}
+
+
+p {
+    font-size: 35px;
+}
